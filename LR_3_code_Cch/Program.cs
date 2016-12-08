@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace LR_3_code_Cch
 {
@@ -15,12 +14,12 @@ namespace LR_3_code_Cch
         {
             Del d = delegate (string str)
             {
-                char[] strToArray = str.ToCharArray();
-                int num;
-                int charCounter = 0;
-                int intCounter = 0;
+                var strToArray = str.ToCharArray();
+                var charCounter = 0;
+                var intCounter = 0;
                 foreach (var ch in strToArray)
                 {
+                    int num;
                     if (int.TryParse(ch.ToString(), out num))
                     {
                         intCounter++;
