@@ -40,6 +40,7 @@ namespace LR_3_code_Cch
             GetWinner(d, "sdfd5588888888888888888888888888494fdgdh19/9b4dgtdfgdf");
 
             var myList = new MyList<int>();
+
             myList.Clearing += MyList_Clearing;
 
             myList.Add(5);
